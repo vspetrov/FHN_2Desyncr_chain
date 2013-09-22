@@ -17,11 +17,13 @@ TEMPLATE = app
 
 SOURCES += main.cpp \
     fitzhugh_nagumo.cpp \
-    DESolver.cpp
+    DESolver.cpp \
+    NetworkSolver.cpp
 
 
 HEADERS += \
     DESolver.h \
     DynamicalSystem.h \
-    fitzhugh_nagumo.h
+    fitzhugh_nagumo.h \
+    NetworkSolver.h
 
